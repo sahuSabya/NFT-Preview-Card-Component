@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    height: 100%;
+    width: 90vw;
+    overflow: scroll;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+section {
+    width: 90%;
+    margin: 10px;
+}
+
+/* image */
+.nft-img > img {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 2%;
+}
+
+/* nft-text */
+.nft-heading {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nft-para {
+    color: hsl(215, 51%, 70%);
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+.eth-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 2.2em;
+}
+
+.eth{
+    position: relative;
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-count {
+    position: absolute;
+    left: 1em;
+    top: -0.2em;
+    width: 5em;
+}
+
+.time{
+    position: relative;
+    color: hsl(215, 51%, 70%);
+}
+
+.time>svg {
+    position: absolute;
+    right: 8em;
+    top: -0.7em;
+}
+
+.time-left {
+    position: absolute;
+    right: 0em;
+    width: 5em;
+    top: -0.7em;
+}
+
+.line{
+    border: solid hsl(215, 32%, 27%) 1px;
+}
+
+.creation{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.creation > img {
+    margin: 1.2em 0.7em 1.2em 0;
+    height: 3em;
+    border: solid white 1px;
+    border-radius: 50%;
+}
+
+.created-by{
+    font-size: 18px;
+    color: white;
+}
+
+.highlight{
+    color: hsl(215, 51%, 70%);
+}
