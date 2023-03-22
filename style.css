@@ -17,7 +17,6 @@ body {
     background-color: hsl(216, 50%, 16%);
     height: min(603.650px, 100%);
     width: min(337.675px, 90vw);
-    overflow: scroll;
     margin: 50px auto;
     border-radius: 20px;
     position: relative;

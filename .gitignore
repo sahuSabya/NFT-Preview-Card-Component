@@ -4,6 +4,5 @@
 .DS_Store
 .prettierignore
 design
-README-template.md
-README.md
+README-instructions.md
 style-guide.md
